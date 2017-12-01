@@ -14,6 +14,8 @@
 /public/web.config
 /resources/assets
 /resources/lang
+config/*
+!config/artesaos/moip.php
 /storage
 /tests
 /.idea
