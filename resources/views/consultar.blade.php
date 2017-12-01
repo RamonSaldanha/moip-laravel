@@ -23,6 +23,34 @@ Estamos consultando a transação:<br />
 	@endforeach
   
 </p>
+<h5>Todas os parametros que você pode recuperar numa consulta:</h5>
+<p>
+<pre style="height:300px">
+    $consulta->getId()
+    $consulta->getOwnId()
+    $consulta->getAmountTotal()
+    $consulta->getAmountFees()
+    $consulta->getAmountRefunds()
+    $consulta->getAmountLiquid()
+    $consulta->getAmountOtherReceivers()
+    $consulta->getCurrenty()
+    $consulta->getSubtotalShipping()
+    $consulta->getSubtotalAddition()
+    $consulta->getSubtotalDiscount()
+    $consulta->getSubtotalItems()
+    $consulta->getItemIterator()
+    $consulta->getCustomer()
+    $consulta->getPaymentIterator()
+    $consulta->getReceiverIterator()
+    $consulta->getEventIterator()
+    $consulta->getRefundIterator()
+    $consulta->getStatus()
+    $consulta->getCreatedAt()
+    $consulta->getUpdatedAt()
+    $consulta->getCheckoutPreferences()
+    $consulta->getList()
+</pre>
+</p>
 </div>
 
 @endsection
