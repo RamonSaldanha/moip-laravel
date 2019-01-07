@@ -1,5 +1,6 @@
 <h4>Como instalar</h4>
 <p>
+  IMPORTANTE: LEMBRAR DE USAR O COMANDO VENDOR PUBLISH PARA PUBLICAR OS CONFIGS DO MOIP
   O moip possui uma SDK no github em php com instruções detalhadas de como implementar tudo... 
   <a href="https://github.com/moip/moip-sdk-php">
   https://github.com/moip/moip-sdk-php
