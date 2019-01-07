@@ -1,6 +1,7 @@
 <h4>Como instalar</h4>
 <p>
-  IMPORTANTE: LEMBRAR DE USAR O COMANDO VENDOR PUBLISH PARA PUBLICAR OS CONFIGS DO MOIP
+  IMPORTANTE: LEMBRAR DE USAR O COMANDO VENDOR PUBLISH PARA PUBLICAR OS CONFIGS DO MOIP<br />
+  
   O moip possui uma SDK no github em php com instruções detalhadas de como implementar tudo... 
   <a href="https://github.com/moip/moip-sdk-php">
   https://github.com/moip/moip-sdk-php
@@ -21,5 +22,8 @@
     $this->moip = new Api(new \Moip\Auth\BasicAuth(config('artesaos.moip.credentials.token'), config('artesaos.moip.credentials.key')), Api::ENDPOINT_SANDBOX);
   </pre>
 
-
+  <h2>Pagamentos via boleto:</h2>
+  USAR URL PRA PEGAR O BOLETO:<br/>
+  https://checkout.moip.com.br/boleto/{{CODIGO-PAY}}/print <<produção>>
+https://checkout-sandbox.moip.com.br/boleto/{{CODIGO-PAY}}/print <<sandbox>>
 </p>
